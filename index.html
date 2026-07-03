@@ -1,1 +1,190 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+  </head>
+  <!-- HTML practice -->
+  <body>
+    <div>
+      <header>
+        <h2>
+          <u><i>STUDENT DASHBOARD</i></u>
+        </h2>
+        <small>Learn Today, Lead Tomorrow</small>
+      </header>
+    </div>
+    <br>
+    <div>
+      <main>
+        <!-- About Student -->
+        <section>
+          <h2><i>•-------Student Profile-------•</i></h2>
+          <p>
+            <b>"Education</b> is the most powerful weapon which you can use to
+            change the world<b>"</b>
+          </p>
+        </section>
+        <br>
+        <aside>
+          <a href="https://www.vu.edu.pk/" target="_blank">
+            <img src="/image/pfp.png" alt="Profile picture" height="320">
+          </a>
+          <br>
+          <big><u>🔗 Click my photo to visit University Website.</u></big>
+        </aside>
+        <br>
+        <section>
+          <pre><big><b><u>Name:</u></b> Insiya</big>                            <big><b><u>Father name:</u></b> Asif</big>
+           <br><big><b><u>Roll no:</u></b> bc573935248</big>                   <big><b><u>Program:</u></b> BS (CS)</big>
+           <br><big><b><u>Department:</u></b> Computer Science</big>         <big><b><u>Semester:</u></b> 4<sup>th</sup> Semester</big>
+          </pre>
+        </section>
+        <br>
+        <section>
+          <h2><i>•-------Academic Performance-------•</i></h2>
+          <table>
+            <thead>
+              <tr>
+                <th>No.</th>
+                <th>Subject Name</th>
+                <th>Marks Obtained</th>
+                <th>Totak Marks</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Programming in C++</td>
+                <td>85</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Data Structures</td>
+                <td>78</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Database Systems</td>
+                <td>88</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Web Development</td>
+                <td>90</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Discrete Mathematics</td>
+                <td>75</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <td colspan="2">Total</td>
+                <td>416</td>
+                <td>500</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <br>
+        <section>
+          <h2><i>•-------Technical Hobbies-------•</i></h2>
+          <ul>
+            <li>Exploring Artificial Intelligence and Machine Learning</li>
+            <li>Web Development using HTML, CSS, JavaScript</li>
+            <li>Solving problems on LeetCode and HackerRank</li>
+            <li>Learning Cloud Computing (AWS, Azure)</li>
+            <li>Reading tech blogs and research papers</li>
+            <li>Building personal coding projects</li>
+          </ul>
+        </section>
+        <br>
+        <section>
+          <h2><i>•-------Admission Form-------•</i></h2>
+          <form action="/action.php">
+            <label for="id101"><b>Name:</b>
+              <br>
+              <input type="text" placeholder="Enter your full name" id="id101">
+            </label>
+            <br><br>
+            <label for="id102"><b>Email:</b>
+              <br>
+              <input type="email" placeholder="Enter your email" id="id102">
+            </label>
+            <br><br>
+            <label for="id103"><b>Password:</b>
+              <br>
+              <input type="password" placeholder="Enter your password" id="id103">
+            </label>
+            <br><br>
+            <label for="id108"><b>Date of Birth:</b>
+              <br>
+              <input type="date">
+            </label>
+            <br><br>
+            <label for="id104"><b>Gender:</b>
+              <br>
+              <input type="radio" name="gender" value="Male" id="id104">Male
+            </label>
+            <label for="id105">
+              <input type="radio" name="gender" value="Female" id="id104">Female
+            </label>
+            <label for="id106">
+              <input type="radio" name="gender" value="Other" id="id106">Other
+            </label>
+            <br><br>
+            <label for="id107"><b>Select City:</b>
+              <br>
+              <select name="city" id="id107">
+                <option>---Select city---</option>
+                <option value="Lahore">Lahore</option>
+                <option value="Islamabad">Islamabad</option>
+                <option value="Sialkot">Sialkot</option>
+                <option value="Karachi">Karachi</option>
+                <option value="Multan">Multan</option>
+              </select>
+            </label>
+            <br><br>
+            <label for="id109"><b>Select Skills:</b>
+              <br>
+              <input type="checkbox" name="skill" value="HTML" id="id109">HTML
+            </label>
+            <label for="id110">
+              <input type="checkbox" name="skill" value="CSS" id="id110">CSS
+            </label>
+            <label for="id111">
+              <input type="checkbox" name="skill" value="JS" id="id111">JS
+            </label>
+            <label for="id112">
+              <input type="checkbox" name="skill" value="Python" id="id112">Python
+            </label>
+            <label for="id113">
+              <input type="checkbox" name="skill" value="C++" id="id113">C++
+            </label>
+            <br><br>
+            <label for="114"><b>Feedback:</b>
+              <br>
+              <textarea name="feedback" id="114" rows="5"></textarea>
+            </label>
+            <br><br>
+            <input type="button" value="Submit Form">
+          </form>
+        </section>
+      </main>
+    </div>
+    <br><br>
+    <div>
+      <footer>
+        <b>&copy; 2026 Virtual University. All Rights Reserved.</b>
+        <br>
+        <b>Education today, Success tomorrow</b>
+      </footer>
+    </div>
+  </body>
+</html>
